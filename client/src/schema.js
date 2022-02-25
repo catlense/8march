@@ -18,6 +18,26 @@ export const users = {
       w: 'Лизой'
     },
     team: 'leraLiza'
+  },
+  albina: {
+    name: {
+      i: 'Альбина',
+      r: 'Альбины',
+      p: 'Альбине',
+      o: 'Альбин',
+      w: 'Альбиной'
+    },
+    team: 'albinaKatya'
+  },
+  katyak: {
+    name: {
+      i: 'Катя',
+      r: 'Кати',
+      p: 'Кате',
+      o: 'Кать',
+      w: 'Катей'
+    },
+    team: 'albinaKatya'
   }
 }
 
@@ -39,6 +59,26 @@ export const teams = {
         answer: 'и',
         back: 'Подойдите к охраннице',
         next: 'Идите к кабинету №27.'
+      }
+    ]
+  },
+  albinaKatya: {
+    name: 'Команда Альбины и Кати К.',
+    users: ['albina', 'katyak'],
+    tasks: [
+      {
+        number: 1,
+        text: 'Кто тут?',
+        answer: 'я',
+        back: 'Идите к охране',
+        next: 'Идите вон'
+      },
+      {
+        number: 2,
+        text: 'Кто там?',
+        answer: 'свои',
+        back: 'Идите к охране',
+        next: 'Идите вон'
       }
     ]
   }
